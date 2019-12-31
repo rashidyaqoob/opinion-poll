@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(57, 138, 57);
+}
+.container h1{
+    margin-top: 20px;
+    text-align: center;
+    color: cornsilk;
+}
+.poll h2{
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(136, 255, 245);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: wheat;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.btn{
+    color: white;
+    background-color: blue;
+    width: 120px;
+    border: 1px solid blue;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:blue;
+    background-color: white;
+}
+
